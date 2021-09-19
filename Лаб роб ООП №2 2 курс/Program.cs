@@ -37,8 +37,8 @@ namespace Лаб_роб_ООП__2_2_курс
             double z = Math.Atan(Math.Sqrt(2 - Math.Cos(2*x))); // Математична функція Arctg√(2-Cos2x)
             double c = Math.E;
             double b = -x / 5;
-            double v = Math.Pow(c, b); // Підносимо експоненту в ступінь - (x / 5)
-            double G = (5 / 3) - z - v; // Обчислюємо нашу функцію G
+            double v = Math.Pow(c, b); // Підносимо експоненту в ступінь - (x / 5).
+            double G = (5 / 3) - z - v; // Обчислюємо нашу функцію G.
             Console.WriteLine(" x = {0} \t G = {1}", x, G);
 
             Console.ReadKey();
