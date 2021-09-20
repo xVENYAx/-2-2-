@@ -38,8 +38,10 @@ namespace Лаб_роб_ООП__2_2_курс
             double c = Math.E;
             double b = -x / 5;
             double v = Math.Pow(c, b); // Підносимо експоненту в ступінь - (x / 5).
-            double G = (5 / 3) - z - v; // Обчислюємо нашу функцію G.
+            float m = 5 / 3f;
+            double G = m - z - v; // Обчислюємо нашу функцію G.
             Console.WriteLine(" x = {0} \t G = {1}", x, G);
+            
 
             Console.ReadKey();
         }
